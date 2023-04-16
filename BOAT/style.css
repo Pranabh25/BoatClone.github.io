@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 350vh;
+    width: 100%;
+    background-color: black;
+}
+.nav1{
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav2{
+    height: 70px;
+    width: 100%;
+}
+.container{
+    height: 65px;
+    width: 95%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 40px;
+    width: 100px;
+    background-image: url(Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.webp);
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu{
+    height: 40px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+.menu ul li{
+    margin-left: 40px;
+    list-style: none;
+    color: white;
+}
+.search{
+    height: 40px;
+    width: 250px;
+}
+input{
+    height: 35px;
+    width: 250px;
+    border-radius: 50px;
+}
+::placeholder{
+    font-size: medium;
+}
+.option{
+    height: 30px;
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo1{
+    height: 30px;
+    width: 35px;
+    background-image: url(person-fill.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100);
+}
+.logo2{
+    height: 30px;
+    width: 35px;
+    background-image: url(gift-fill.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100);
+}
+.logo3{
+    height: 30px;
+    width: 35px;
+    background-image: url(cart-fill.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100);
+}
+.image1{
+    height: 70vh;
+    width: 100%;
+    background-image: url(Banner-Wave-Select-Desktop_3_2000x.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bestseller{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+}
+.screen2{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.product1{
+    height: 55vh;
+    width: 40vh;
+    background-image: url(cream_600x.webp);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    border-radius:10px;
+}
+.product2{
+    height: 55vh;
+    width: 40vh;
+    margin:0px 20px;
+    background-image: url(airdopes-121-v2-pink_600x.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    border-radius:10px;
+}
+.product3{
+    height: 55vh;
+    width: 40vh;
+    margin-right:20px;
+    background-image: url(xtend_black_400x.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    border-radius:10px;
+}
+.product4{
+    height: 55vh;
+    width: 40vh;
+    background-image: url(MG_600x.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:white;
+    border-radius:10px;
+}
+.add{
+    height: 15vh;
+    width: 39vh;
+
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    top: 40vh;
+    background-color: rgb(163, 234, 255);
+}
+.button{
+    height: 100px;
+    width:30px;
+}
+input[type=text]{
+    padding-left: 20px;
+}
+.screen3{
+    height: 90vh;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view{
+    height: 80vh;
+    width: 80%;
+    border: 12px solid rgb(236, 20, 20);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.view video{
+    object-fit: cover;
+    height: 96%;
+    width: 98%;
+}
+.text1{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    animation: move1 5s infinite;
+}
+@keyframes move1{
+    0%{
+        left:100%;
+    }
+    100%{
+        left:0%;
+    }
+}
+.text2{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    animation: move2 5s infinite;
+}
+@keyframes move2{
+    0%{
+        right:100%;
+    }
+    100%{
+        right:0%;
+    }
+}
+.screen7{
+    height: 70vh;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1{
+    height: 250px;
+    width: 60vh;
+    border: 2px solid white;
+}
+.logo4{
+    height: 50px;
+    width: 100px;
+    background-image: url(Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.webp);
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.content{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.input{
+    height: 50px;
+    width: 100%;
+    margin: 15px 0px;
+}
+.logo5{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo6{
+    height: 30px;
+    width: 35px;
+    background-image: url(facebook\ \(2\).svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100);
+}
+.logo7{
+    height: 30px;
+    width: 35px;
+    background-image: url(instagram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+}
+.logo8{
+    height: 30px;
+    width: 35px;
+    background-image: url(twitter.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100);
+}
+.logo9{
+    height: 30px;
+    width: 35px;
+    background-image: url(youtube.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100);
+}
+.logo10{
+    height: 30px;
+    width: 35px;
+    background-image: url(linkedin\ \(1\).svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100);
+}
+.box2{
+    height: 100%;
+    width: 20%;
+    border: 2px solid white;
+    color: white;
+}
+.box3{
+    height: 100%;
+    width: 20%;
+    border: 2px solid white;
+}
+.box4{
+    height: 100%;
+    width: 20%;
+    border: 2px solid white;
+}
+ul li{
+    list-style-type: none;
+}
